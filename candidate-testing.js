@@ -87,6 +87,30 @@ if (candidateAnswer3.toUpperCase() === correctAnswer3.toUpperCase()) {
     console.log("Incorrect...");
   }
 
+  console.log("Candidate Name: " + candidateName)
+  console.log("1) " + question)
+  console.log("Your answer: " + candidateAnswer)
+  console.log("Correct answer: " + correctAnswer)
+  console.log("")
+  console.log("2) " + question2)
+  console.log("Your answer: " + candidateAnswer2)
+  console.log("Correct answer: " + correctAnswer2)
+  console.log("")
+  console.log("3) " + question3)
+  console.log("Your answer: " + candidateAnswer3)
+  console.log("Correct answer: " + correctAnswer3)
+  console.log("")
+  console.log("4) " + question4)
+  console.log("Your answer: " + candidateAnswer4)
+  console.log("Correct answer: " + correctAnswer4)
+  console.log("")
+  console.log("5) " + question5)
+  console.log("Your answer: " + candidateAnswer5)
+  console.log("Correct answer: " + correctAnswer5)
+  console.log("")
+
+
+
   let grade;
   grade = point1 + point2 + point3 + point4 + point5
   console.log(grade.toString() + " out of 5 points!")
